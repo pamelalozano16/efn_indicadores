@@ -1,0 +1,42 @@
+
+
+body{
+    margin:0;
+    width:2562px;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+.main-content{
+    width:100%;
+    height: 71px;
+}
+
+.div-column{
+    width:183px;
+    height:41px;
+    background-color: #f5f4f4;
+    color:#1F1E20;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:30px;
+    float:left;
+}
+.div-column-w{
+    width:183px;
+    height:41px;
+    background-color: #1F1E20;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:30px;
+    float:left;
+}
+span{
+    display: list-item;
+    list-style-type: none;
+    color:#34b11e;
+}
+marquee{
+    background-color: #1F1E20;
+}
