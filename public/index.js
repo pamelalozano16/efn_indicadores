@@ -5,9 +5,9 @@ try{
     const data = await dataJSON.json()
 console.log(data)
 for(var i in data){
-    console.log(data[i].id)
-    id = data[i].id
-    document.getElementById(id).innerHTML=data[i].valor;
+    console.log(data[i].Id)
+    id = data[i].Id
+    document.getElementById(id).innerHTML=data[i].Valor;
 }
 
 return data
