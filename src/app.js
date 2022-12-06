@@ -2,8 +2,9 @@ const express = require('express')
 const path = require('path')
 const publicPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates')
+require("dotenv").config();
 
-const port = process.env.PORT|| 8080
+const port = process.env.PORT;
 
 const app = express()
 app.set('view engine', 'hbs')
